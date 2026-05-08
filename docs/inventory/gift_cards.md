@@ -14,7 +14,7 @@ This guide explains how to sell and redeem gift cards from the POS system.
    In the POS screen, search for `Gift Card` and add it to the cart like any other product.
 
 2. **Select the amount**  
-   The product will prompt you to enter a denomination (e.g. $10, $25, $50, $100). Choose the correct amount.
+   Change the quantity in the cart to match the the denomination purchased.
 
 3. **Complete checkout normally**  
    Collect payment using the customer's preferred method (cash, card, etc). The system will treat it like any other product.

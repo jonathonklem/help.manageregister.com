@@ -28,7 +28,9 @@ export default function Home() {
       description="ManageMemberships Knowledge Base">
       <FAQHeader />
       <div className={clsx(styles.innerContainer)}>
-        <p>Coming soon...</p>
+        <FaqItem question="My user sees '403 Forbidden' when trying to print receipts.">
+          <p>Go to the <Link to="/docs/user/users">Users</Link> section and make sure the affected user has a proper role assigned.</p>
+        </FaqItem>
       </div>
     </Layout>
   );
