@@ -58,6 +58,21 @@ To remove a gift card from the system:
 
 ---
 
+## ManageMemberships Sync
+
+If your account is connected to ManageMemberships, gift card balances are automatically synced between both systems:
+
+- **Creating a gift card** in ManageRegister sends the balance to ManageMemberships so the card can also be used on the membership side.
+- **Redeeming a gift card** at the POS automatically updates the balance in ManageMemberships.
+
+This sync happens in the background and does not slow down checkout. If ManageMemberships is temporarily unavailable, the sync will retry automatically. ManageMemberships is the source of truth for balances — if the two systems ever disagree, the ManageMemberships balance takes precedence.
+
+You can check sync status on each gift card:
+- **Last Synced**: When the balance was last confirmed with ManageMemberships.
+- **Synced**: Whether the current balance matches ManageMemberships.
+
+---
+
 ## Notes
 
 - Gift cards **do not expire** unless you manually deactivate them.

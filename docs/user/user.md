@@ -13,7 +13,7 @@ The User Management page allows you to view, add, and manage users in your organ
 
 - **View all users** (except your own account)
 - **Add new users** with names, emails, and contact info
-- **Assign roles** to control access
+- **Assign roles** to control access (see [Roles & Permissions](./roles))
 - **Reset passwords** securely
 - **Edit or delete users** as needed
 - **Restore accidentally deleted users**

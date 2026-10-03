@@ -11,7 +11,7 @@
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "push": "aws s3 sync build/ s3://help.manageregister.com --delete",
-    "clear-cache": "aws cloudfront create-invalidation --distribution-id E2MZID3MKVQC9Z --paths '/*'",
+    "clear-cache": "aws cloudfront create-invalidation --distribution-id EPFET9ARQFJCL --paths '/*'",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids"
   },

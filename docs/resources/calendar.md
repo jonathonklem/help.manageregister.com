@@ -16,6 +16,32 @@ The Calendar provides a visual scheduling interface for booking resources, class
 
 ---
 
+## Moving and Editing Bookings
+
+Drag a booking to move it, drag its edge to change its length, or click it to edit or delete it. Moving a booking that came from a quote updates the quote too.
+
+Users whose role lacks `manage range bookings` (such as RSO) can view the calendar and open bookings, but can't create, move, edit or delete them.
+
+---
+
+## Blocked Time and Privacy
+
+To block a resource, select a time range and click **Mark Resource Unavailable**, then enter a reason (e.g. "ATF TRAINING"). To remove a block, click it and confirm.
+
+Who sees the reason depends on their role:
+
+| Tier | What they see | Default roles |
+|------|---------------|---------------|
+| **Visible** | "Unavailable - ATF TRAINING" | MORSS, Manager, admin, staff |
+| **Click to reveal** | "Unavailable". Clicking the block offers **Show** | Front Desk |
+| **Hidden** | "Unavailable" only | RSO, Receipt Counter |
+
+Members never see the reason. To hide reasons from ManageMemberships staff as well, turn on **Hide Unavailable Reasons From Staff** in ManageMemberships under Portal Settings > Privacy & Access.
+
+Change who sees what on the [Roles](../user/roles) screen.
+
+---
+
 ## Tips
 
 - Review the calendar daily to stay on top of upcoming bookings and blocked time.

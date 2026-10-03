@@ -14,7 +14,7 @@ Layaway allows customers to reserve products and pay for them over time with a d
 2. Click **"Create Layaway"**.
 3. Fill in the details:
    - **Customer**: Select an existing member or create one.
-   - **Items**: Add the products being placed on layaway.
+   - **Items**: Add the products being placed on layaway. The product search matches by name, SKU/item number, or UPC/barcode. If the product isn't in inventory yet, use the **+** button next to the product field to add a new item on the spot (name, category, UPC, cost, and price — SKU/barcode auto-generate if left blank).
    - **Down Payment**: Collect an initial payment to secure the items.
 
 Each item's price is calculated automatically based on the product record.

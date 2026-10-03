@@ -15,7 +15,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://manageregister.com',
+  url: 'https://help.manageregister.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -25,6 +25,7 @@ const config = {
   organizationName: 'ManageRegister', // Usually your GitHub org/user name.
   projectName: 'ManageRegister', // Usually your repo name.
 
+  trailingSlash: true,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -107,6 +108,11 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+      },
+      algolia: {
+        appId: '30VDBWMO15',
+        apiKey: '337f8c85eb4a1fafa270a0d46f6a8062',
+        indexName: 'help_manageregister_com_30vdbwmo15_pages',
       },
     }),
 };
