@@ -60,3 +60,4 @@ A role with neither of the last two sees blocked time as just "Unavailable". See
 
 - Pair roles with registers: limit each register to the roles that should use it. See [Cash Register](../setting/cash-register).
 - Only roles with `approve manager override` can approve overrides, so give PINs to MORSS and Manager users.
+- Members who still need the range safety briefing are flagged at the POS. See [Safety Briefing](../safety-briefing).
